@@ -1,0 +1,139 @@
+/* fonts and text */
+
+body {
+	background:url(seabackground.jpg) no-repeat center center fixed;
+	-webkit- background-size: cover;
+	-moz-background-size:cover;
+	background-size: cover;
+	color:#575F7D;
+	font-family: 'Lora', serif;
+	font-size: 20px;
+	font-weight: lighter;
+}
+nav{
+	background:#0082e6
+	height: 80px;
+	width: 100%
+}
+nav ul{
+	float:right;
+	margin-right: 20px;
+}
+nav ul li{
+	display: inline-block;
+	line-height: 80px
+	margin: 0 50px;
+}
+nav ul li a{
+	color: white;
+	font-size: 17px;
+	padding: 7px 13px;
+	border-radius:3px;
+	text-transform: uppercase;
+}
+a:hover{
+	background: #33ccff;
+	transition:.5s;
+}
+h1 {
+	color: #000000;
+	font-size: 40px;
+	font-weight: 400;
+}
+
+h2 {
+	color: #000000;
+	font-family: 'Roboto',sans-serif;
+	font-size: 34px;
+	font-weight: 1000;
+	letter-spacing: 0px;
+}
+
+a {
+	text-decoration: none;
+	color: #000000;
+	font-size: 30px;
+}
+a:hover{
+	color: #4d94ff;
+}
+p {
+	text-align: center;
+	background: #85e0e0;
+	color: (0,0,0);
+	font-family: 'Roboto', sans-serif;
+	font-size: 18px;
+	font-weight: 22;
+}
+
+/* fonts and text */
+
+.container {
+	width: 1100px;
+	margin: 50px auto;
+}
+	
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+/* Division and cards */	
+
+.card-white {
+	background: #85e0e0;
+   	padding: 50px;
+    margin: 50px 50px 50px;
+    box-shadow: 10px 10px 24px 0px #0000003d;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.img-circle {
+	border-radius: 15px;
+}
+
+.btn-blue {
+	background-color: #004d66;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+.btn-blue:hover {
+	background-color: #809fff;
+	color: white;
+}
+
+.list-inline {
+	list-style: none;
+	padding-left: 0px;
+}
+
+.list-inline li {
+	display: inline;
+	padding-left: 0px;
+}
+
+.list-inline i {
+	font-size: 35px;
+	letter-spacing: 20px;
+}
+
+#introduction p {
+	margin-bottom: 150px;
+}
